@@ -2,6 +2,7 @@ from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from app.core.ai_service import ai_service
+from app.api.routes import chat
 
 app = FastAPI(
     title="API del Asistente Virtual",
@@ -18,6 +19,9 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+# Incluir el router de chat
+app.include_router(chat.router, prefix="/api")
+
 class Mensaje(BaseModel):
     texto: str
 
@@ -26,7 +30,9 @@ async def root():
     return {
         "mensaje": "Bienvenido a la API del Asistente Virtual",
         "endpoints": {
-            "/chat": "POST - Envía un mensaje al asistente",
+            "/api/chat": "POST - Envía un mensaje al asistente",
+            "/api/test": "GET - Prueba la conexión con la IA",
+            "/api/ws/chat": "WebSocket - Conexión en tiempo real",
             "/health": "GET - Verifica el estado del servidor"
         }
     }
