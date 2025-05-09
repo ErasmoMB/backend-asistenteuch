@@ -1,55 +1,44 @@
-import speech_recognition as sr
-import pyttsx3
+from fastapi import FastAPI, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
+from pydantic import BaseModel
 from app.core.ai_service import ai_service
 
-def main():
-    # Inicializar motor de voz
-    engine = pyttsx3.init()
-    engine.setProperty('voice', 'spanish')
-    engine.setProperty('rate', 150)
-    
-    # Inicializar reconocedor de voz
-    recognizer = sr.Recognizer()
-    microphone = sr.Microphone()
-    
-    # Ajustar el reconocedor
-    recognizer.energy_threshold = 300
-    recognizer.dynamic_energy_threshold = True
-    recognizer.pause_threshold = 0.8
-    
-    # Mensaje de bienvenida
-    engine.say("Hola, soy tu asistente virtual. ¿En qué puedo ayudarte?")
-    engine.runAndWait()
-    
-    while True:
-        with microphone as source:
-            print("Habla ahora (o di 'salir' para terminar)...")
-            recognizer.adjust_for_ambient_noise(source)
-            audio = recognizer.listen(source)
-            
-        try:
-            texto = recognizer.recognize_google(audio, language="es-ES")
-            print(f"Tú: {texto}")
-            
-            if texto.lower() == "salir":
-                engine.say("Hasta luego!")
-                engine.runAndWait()
-                break
-                
-            # Obtener respuesta de la IA
-            respuesta = ai_service.obtener_respuesta(texto)
-            
-            # Reproducir respuesta
-            print(f"Asistente: {respuesta}")
-            engine.say(respuesta)
-            engine.runAndWait()
-            
-        except sr.UnknownValueError:
-            print("No entendí, intenta de nuevo.")
-        except sr.RequestError:
-            print("Error con el servicio de reconocimiento de voz.")
-        except Exception as e:
-            print(f"Error: {str(e)}")
+app = FastAPI(
+    title="API del Asistente Virtual",
+    description="API para interactuar con el asistente virtual",
+    version="1.0.0"
+)
 
-if __name__ == "__main__":
-    main() 
+# Configurar CORS
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # En producción, especifica los orígenes permitidos
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+class Mensaje(BaseModel):
+    texto: str
+
+@app.get("/")
+async def root():
+    return {
+        "mensaje": "Bienvenido a la API del Asistente Virtual",
+        "endpoints": {
+            "/chat": "POST - Envía un mensaje al asistente",
+            "/health": "GET - Verifica el estado del servidor"
+        }
+    }
+
+@app.post("/chat")
+async def chat(mensaje: Mensaje):
+    try:
+        respuesta = ai_service.obtener_respuesta(mensaje.texto)
+        return {"respuesta": respuesta}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/health")
+async def health_check():
+    return {"status": "ok", "service": "asistente-virtual"} 
