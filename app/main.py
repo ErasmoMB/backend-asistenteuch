@@ -2,6 +2,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.api.routes import chat, tts, uch_api
 from dotenv import load_dotenv
+import os
 
 load_dotenv()
 
@@ -10,7 +11,10 @@ app = FastAPI(title="Asistente Virtual API")
 # Configurar CORS
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],  # URL del frontend
+    allow_origins=[
+        "http://localhost:3000",
+        os.getenv("FRONTEND_URL", "https://frontend-asistenteuch.onrender.com")
+    ],  # Permite frontend local y de producción
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
