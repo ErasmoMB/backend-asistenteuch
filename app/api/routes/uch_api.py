@@ -17,42 +17,42 @@ def load_data():
         print(f"Error loading data file {DATA_FILE}: {e}")
         return None
 
-@router.get('/api/all')
+@router.get('/all')
 def get_all_data():
     data = load_data()
     if data is None:
         raise HTTPException(status_code=500, detail="Data not found or could not be loaded")
     return JSONResponse(content=data)
 
-@router.get('/api/carreras')
+@router.get('/carreras')
 def get_carreras():
     data = load_data()
     if data is None or 'carreras' not in data:
         raise HTTPException(status_code=404, detail="Career data not found or could not be loaded")
     return JSONResponse(content=data['carreras'])
 
-@router.get('/api/admision')
+@router.get('/admision')
 def get_admision():
     data = load_data()
     if data is None or 'admision' not in data:
         raise HTTPException(status_code=404, detail="Admission data not found or could not be loaded")
     return JSONResponse(content=data['admision'])
 
-@router.get('/api/facultades')
+@router.get('/facultades')
 def get_facultades():
     data = load_data()
     if data is None or 'facultades' not in data:
         raise HTTPException(status_code=404, detail="Faculty data not found or could not be loaded")
     return JSONResponse(content=data['facultades'])
 
-@router.get('/api/servicios')
+@router.get('/servicios')
 def get_servicios():
     data = load_data()
     if data is None or 'servicios' not in data:
         raise HTTPException(status_code=404, detail="Service data not found or could not be loaded")
     return JSONResponse(content=data['servicios'])
 
-@router.get('/api/info')
+@router.get('/info')
 def get_info():
     """Devuelve información institucional extendida (misión, visión, autoridades, etc)."""
     data = load_data()
