@@ -23,7 +23,7 @@ app.add_middleware(
 # Incluir rutas
 app.include_router(chat.router, prefix="/api")
 app.include_router(tts.router, prefix="/api")
-app.include_router(uch_api.router)
+app.include_router(uch_api.router, prefix="/api")
 
 @app.get("/")
 async def root():
