@@ -1,0 +1,111 @@
+{
+  "laboratorios": [
+    {
+      "nombre": "Centro de Investigación E-Health",
+      "descripcion": "El Centro de Investigación E-Health, creado el 23 de marzo de 2016, desarrolla proyectos en computing, ingeniería biomédica y TICs aplicadas a la salud y salud pública. Su objetivo es movilizar investigadores, docentes y estudiantes para generar conocimiento que resuelva problemas sociales.",
+      "objetivo": "Movilizar investigadores, docentes y estudiantes que contribuyan en la generación de conocimiento para identificar y resolver problemas de la sociedad.",
+      "lineas_investigacion": [
+        "Enfermería: Salud pública",
+        "Biotecnología: Biomateriales, Control de plagas y enfermedades, Biorremediación, Biocombustibles, Biofertilizantes",
+        "Tecnologías de la Información y Comunicación: Bioingeniería y biología computacional, Electrónica e instrumentación biomédica, Procesamiento de imágenes médicas, Telemedicina, sistemas inteligentes y de computación, Redes, comunicaciones y señales"
+      ],
+      "proyectos_destacados": [
+        {"año": 2023, "proyectos": [
+          "Farmacodinámica de Venetoclax en combinación con Daunorubicina en modelo celular portador de la mutación t(8;21)/RUNX1-RUNX1T1.",
+          "Alfabetización en eSalud de los padres y su relación con el estado de salud de los niños.",
+          "Biorefinería mediante CO2 supercrítico y extracción por solvente acelerada (ASE) en residuos de lúcuma con potencial antioxidante y antimicrobiano.",
+          "Gestión de historias clínicas electrónicas para establecimientos de salud."
+        ]},
+        {"año": 2022, "proyectos": [
+          "Calidad de vida y riesgo cardiovascular durante la pandemia por COVID-19 en personas hipertensas.",
+          "Empoderamiento y alfabetización en eSalud en pacientes con enfermedades crónicas.",
+          "Actividad antimicrobiana y caracterización molecular de hongos endófitos aislados de ‘Ñuña’."
+        ]}
+      ],
+      "equipo": [
+        {"nombre": "Dr. Telmo Agustín Mejía García", "rol": "Coordinador"},
+        {"nombre": "Dr. Juan Morales Quispe", "rol": "Docente investigador en Medicina/Enfermería"},
+        {"nombre": "Dr. Alicia Alvara Mantari", "rol": "Docente investigadora en Tecnología biomédica"},
+        {"nombre": "Mg. Daniel Yupanqui Lorenzo", "rol": "Docente investigador en Psicología"},
+        {"nombre": "Dr. Tania Arauco Lozada", "rol": "Docente investigadora en Nutrición"},
+        {"nombre": "Mg. Celia Vargas de la Cruz", "rol": "Docente investigadora en Nutrición"},
+        {"nombre": "Mg. Juan Almerco Franco", "rol": "Docente investigador en Farmacia y Bioquímica"},
+        {"nombre": "Lic. Alexandra Zegarra Soto", "rol": "Investigadora junior en Enfermería"},
+        {"nombre": "Vania Avanto Castro", "rol": "Asistente de investigación"},
+        {"nombre": "Ana Huamaní Huaracca", "rol": "Asistente de investigación"}
+      ]
+    },
+    {
+      "nombre": "INTI-Lab (Laboratorio de Investigación en Tratamiento de Imágenes)",
+      "descripcion": "Creado el 23 de junio de 2016, INTI-Lab desarrolla proyectos en procesamiento de señales e imágenes, tecnología aeroespacial, ingeniería de rehabilitación, ciudades inteligentes, TIC, biotecnología, sistemas electrónicos, informáticos e inteligencia artificial.",
+      "objetivo": "Contribuir con la generación y crecimiento de la investigación en la UCH, desarrollando proyectos que ayuden a solucionar problemas reales de la sociedad.",
+      "lineas_investigacion": [
+        "Ingeniería Electrónica y Telecomunicaciones: Telecomunicaciones, Control y diseño electrónico",
+        "Ingeniería de Sistemas e Informática: Desarrollo de software, Tecnologías de la información, Redes y comunicación de datos, Sistemas inteligentes",
+        "Gestión de TIC: Realidad mixta, Toma de decisiones, Inteligencia de negocios, Sistemas de información",
+        "Ingeniería Industrial: Diseño industrial, Desarrollo y manejo de sistemas industriales, Dispositivos y equipos de control de procesos, Optimización de operaciones y procesos",
+        "Tecnología Biomédica: Señales e imágenes biomédicas, Dispositivos médicos, Biosensores",
+        "Sistemas Aeroespaciales: Imágenes satelitales, Diseño y operación de sistemas aeroespaciales"
+      ],
+      "proyectos_destacados": [
+        {"año": 2023, "proyectos": [
+          "Desarrollo de un mini rover autónomo para misiones de exploración y rescate.",
+          "Estudio y análisis de la proliferación de algas dañinas en el lago Titicaca usando sensores remotos.",
+          "Rumiñawi: diseño y prueba de concepto de un retinógrafo portátil de bajo costo."
+        ]},
+        {"año": 2022, "proyectos": [
+          "Qhawawa: plataforma integral para evaluación de metales pesados en niños y mujeres en edad fértil.",
+          "Reconocimiento de emociones en base a imágenes faciales aplicando deep learning."
+        ]}
+      ],
+      "equipo": [
+        {"nombre": "Román-González, Avid", "rol": "Investigador principal"},
+        {"nombre": "Laberiano Andrade Arenas", "rol": "Investigador"},
+        {"nombre": "Alva Mantari Alicia Katherine", "rol": "Investigadora"},
+        {"nombre": "Vargas Cuentas, Natalia I.", "rol": "Investigadora"},
+        {"nombre": "Erasmo Montufar", "rol": "Investigador"},
+        {"nombre": "Victor Niels Romero Alva", "rol": "Investigador"},
+        {"nombre": "Enrique Huamani Uriarte", "rol": "Investigador"},
+        {"nombre": "Sebastián Ramos Cosi", "rol": "Investigador"},
+        {"nombre": "Jhair Baltodano Payahua", "rol": "Investigador"},
+        {"nombre": "Claudia Marrujo Ingunza", "rol": "Investigadora"},
+        {"nombre": "Oscar Arana Huanca", "rol": "Investigador"},
+        {"nombre": "Jhonathan Arzapalo Torres", "rol": "Investigador"},
+        {"nombre": "Miguel Perez Huaman", "rol": "Investigador"},
+        {"nombre": "Milagros Vara Teodoro", "rol": "Investigadora"}
+      ]
+    },
+    {
+      "nombre": "Centro de Investigación Interdisciplinar Ciencia y Sociedad (CIICS)",
+      "descripcion": "El CIICS promueve la vinculación entre ciencia y sociedad desde un enfoque interdisciplinar. Busca generar conocimiento relevante que contribuya a políticas y propuestas de intervención en el contexto local y nacional.",
+      "objetivo": "Generar conocimiento nuevo y relevante, articulando ciencias, tecnología, innovación y sociedad.",
+      "lineas_investigacion": [
+        "Contabilidad y Finanzas: Gestión financiera y de costos empresariales, Tributación, Auditoría",
+        "Administración: Comportamiento organizacional, Dirección estratégica, Gestión de recursos humanos",
+        "Psicología: Psicología clínica, educativa, organizacional y social",
+        "Educación primaria e interculturalidad: Aprendizaje y gestión educativa, currículo y didáctica, nuevos medios",
+        "Educación inicial: Aprendizaje y gestión educativa, currículo y didáctica, políticas y experiencias educativas",
+        "Desarrollo sostenible: Medio ambiente, desarrollo social, recursos hídricos y energéticos, agricultura y alimentación",
+        "Marketing y comercio internacional: Marketing, comercialización internacional, internacionalización de empresas, acuerdos comerciales"
+      ],
+      "proyectos_destacados": [
+        {"año": 2023, "proyectos": [
+          "Creación y validación de un instrumento sobre la percepción y predisposición docente para la incorporación de las TIC en el aula.",
+          "Atención infantil desde la interculturalidad: abordaje desde la mirada sistémica en la comunidad Yanesha Tsachopen (Oxapampa - Perú)."
+        ]},
+        {"año": 2022, "proyectos": [
+          "Estudio de caso sobre una experiencia de diversificación curricular en el área de personal social en educación inicial de escuelas públicas de la isla de Amantaní (Puno - Perú)."
+        ]}
+      ],
+      "equipo": [
+        {"nombre": "Milton Alexis Gonzales Macavilca", "rol": "Coordinador"},
+        {"nombre": "Zulema Leiva Bazán", "rol": "Investigadora"},
+        {"nombre": "Beatriz Baylón", "rol": "Investigadora"},
+        {"nombre": "Iván Díaz León", "rol": "Asistente de investigación"},
+        {"nombre": "Lucía Capuñay Mayuri", "rol": "Asistente de investigación"},
+        {"nombre": "Medaly Muñoz Cotrina", "rol": "Asistente de investigación"},
+        {"nombre": "Alberto Soto Tejada", "rol": "Asistente de investigación"}
+      ]
+    }
+  ]
+}

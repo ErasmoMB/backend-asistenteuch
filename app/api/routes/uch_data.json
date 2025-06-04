@@ -186,5 +186,101 @@
             "nombre": "Internacionalización",
             "url": "https://www.uch.edu.pe/internacionalizacion"
         }
+    ],
+    "laboratorios": [
+        {
+            "nombre": "Centro de Investigación E-Health",
+            "descripcion": "Centro dedicado a proyectos de e-health, ingeniería biomédica, TICs aplicadas a la salud y salud pública. Fundado el 23 de marzo de 2016.",
+            "objetivo": "Movilizar investigadores, docentes y estudiantes para generar conocimiento que resuelva problemas sociales.",
+            "lineas_investigacion": [
+                "Enfermería: Salud pública",
+                "Biotecnología: Biomateriales, Control de plagas y enfermedades, Biorremediación, Biocombustibles, Biofertilizantes",
+                "TIC: Bioingeniería, biología computacional, electrónica biomédica, procesamiento de imágenes médicas, telemedicina, sistemas inteligentes, redes y señales"
+            ],
+            "proyectos_destacados": [
+                "Farmacodinámica de Venetoclax en combinación con Daunorubicina en modelo celular portador de la mutación T(8;21)/RUNX1-RUNX1T1.",
+                "Gestión de historias clínicas electrónicas para establecimientos de salud.",
+                "Calidad de vida y riesgo cardiovascular durante la pandemia por COVID-19 en personas hipertensas.",
+                "Sensores biológicos para el monitoreo de pacientes en telemedicina hospitalaria.",
+                "Aplicaciones de machine learning en salud y biología."
+            ],
+            "equipo": [
+                "Dr. Telmo Agustín Mejía García (Coordinador)",
+                "Dr. Juan Morales Quispe",
+                "Dr. Alicia Alvara Mantari",
+                "Mg. Daniel Yupanqui Lorenzo",
+                "Dr. Tania Arauco Lozada",
+                "Mg. Celia Vargas de la Cruz",
+                "Mg. Juan Almerco Franco",
+                "Lic. Alexandra Zegarra Soto",
+                "Vania Avanto Castro",
+                "Ana Huamaní Huaracca"
+            ]
+        },
+        {
+            "nombre": "INTI-Lab (Laboratorio de Investigación en Tratamiento de Imágenes)",
+            "descripcion": "Centro dedicado al procesamiento de señales e imágenes, tecnología aeroespacial, ingeniería de rehabilitación, ciudades inteligentes, TIC, biotecnología, sistemas electrónicos, inteligencia artificial. Fundado el 23 de junio de 2016.",
+            "objetivo": "Contribuir a la investigación en la UCH, desarrollando proyectos que ayuden a solucionar problemas reales de la sociedad.",
+            "lineas_investigacion": [
+                "Ingeniería electrónica y telecomunicaciones: telecomunicaciones, control y diseño electrónico",
+                "Ingeniería de sistemas e informática: desarrollo de software, tecnologías de la información, redes y comunicación de datos, sistemas inteligentes",
+                "Gestión de TIC: realidad mixta, toma de decisiones, inteligencia de negocios, sistemas de información",
+                "Ingeniería industrial: diseño industrial, manejo de sistemas industriales, dispositivos de control de procesos",
+                "Tecnología biomédica: señales e imágenes biomédicas, dispositivos médicos, biosensores",
+                "Sistemas aeroespaciales: imágenes satelitales, sistemas aeroespaciales, entornos espaciales"
+            ],
+            "proyectos_destacados": [
+                "Desarrollo de un mini rover autónomo para misiones de exploración y rescate.",
+                "Reconocimiento de emociones en base a imágenes faciales aplicando deep learning.",
+                "Qhawawa: plataforma para evaluación de metales pesados en niños y mujeres.",
+                "Desarrollo de algoritmo de IA para detección de fraude con tarjeta de crédito en Perú.",
+                "Sistema basado en tecnología háptica para rehabilitación de pacientes con lesiones de muñeca."
+            ],
+            "equipo": [
+                "Román-González, Avid (Coordinador)",
+                "Laberiano Andrade Arenas",
+                "Alva Mantari Alicia Katherine",
+                "Vargas Cuentas, Natalia I.",
+                "Victor Niels Romero Alva",
+                "Enrique Huamani Uriarte",
+                "Sebastián Ramos Cosi",
+                "Jhair Baltodano Payahua",
+                "Claudia Marrujo Ingunza",
+                "Oscar Arana Huanca",
+                "Jhonathan Arzapalo Torres",
+                "Miguel Perez Huaman",
+                "Milagros Vara Teodoro"
+            ]
+        },
+        {
+            "nombre": "CIICS (Centro de Investigación Interdisciplinar Ciencia y Sociedad)",
+            "descripcion": "Centro orientado a promover la vinculación entre ciencia y sociedad desde un enfoque interdisciplinar. Fundado el 18 de mayo de 2016.",
+            "objetivo": "Generar conocimiento relevante que contribuya a la formulación de propuestas de política e intervención en el contexto local y nacional.",
+            "lineas_investigacion": [
+                "Contabilidad y finanzas: gestión financiera, tributación, auditoría",
+                "Administración: comportamiento organizacional, dirección estratégica, gestión de recursos humanos",
+                "Psicología: clínica, educativa, organizacional, social",
+                "Educación primaria e interculturalidad: aprendizaje, currículo, didáctica, nuevos medios",
+                "Educación inicial: aprendizaje, currículo, políticas educativas",
+                "Desarrollo sostenible: medio ambiente, recursos hídricos, agricultura",
+                "Marketing y comercio internacional: marketing, internacionalización, acuerdos comerciales"
+            ],
+            "proyectos_destacados": [
+                "Creación y validación de instrumento sobre percepción docente para TIC en el aula.",
+                "Atención infantil desde la interculturalidad en comunidad Yanesha.",
+                "Relación con los padres y su influencia en el terrorismo íntimo de pareja.",
+                "Efectos del consumo de contenido gaming en Lima.",
+                "Estudio del estilo de aprendizaje de matemáticas en ingeniería de una universidad peruana."
+            ],
+            "equipo": [
+                "Milton Alexis Gonzales Macavilca (Coordinador)",
+                "Zulema Leiva Bazán",
+                "Beatriz Baylón",
+                "Iván Díaz León",
+                "Lucía Capuñay Mayuri",
+                "Medaly Muñoz Cotrina",
+                "Alberto Soto Tejada"
+            ]
+        }
     ]
 }

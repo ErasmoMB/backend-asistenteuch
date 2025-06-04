@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from app.api.routes import chat, tts, uch_api
+from app.api.routes import chat, tts, uch_api, laboratorios_api, produccion_cientifica_api
 from dotenv import load_dotenv
 import os
 
@@ -24,6 +24,8 @@ app.add_middleware(
 app.include_router(chat.router, prefix="/api")
 app.include_router(tts.router, prefix="/api")
 app.include_router(uch_api.router, prefix="/api")
+app.include_router(laboratorios_api.router, prefix="/api")
+app.include_router(produccion_cientifica_api.router, prefix="/api")
 
 @app.get("/")
 async def root():

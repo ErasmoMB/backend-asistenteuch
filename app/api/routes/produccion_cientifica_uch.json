@@ -1,0 +1,140 @@
+{
+  "resumen_global": {
+    "documentos": 939,
+    "autores": 428
+  },
+  "investigadores": [
+    {
+      "nombre": "Arauco-Lozada, Tania",
+      "grados": ["Magíster en Gestión y Docencia en Alimentación y Nutrición", "Magíster Universitario en Nutrición y Metabolismo en la especialidad en Nutrición Clínica", "Licenciada en Nutrición y Dietética", "Bachiller en Nutrición y Dietética"],
+      "citaciones": 5,
+      "documentos": 3
+    },
+    {
+      "nombre": "Mejía-García, Telmo A.",
+      "grados": ["Doctor en Neuroinmunología", "Magíster en Neuroinmunología", "Bachiller en Ciencias Biológicas"],
+      "citaciones": 87,
+      "documentos": 3
+    },
+    {
+      "nombre": "Méndez-Nina, Julio",
+      "grados": ["Magíster en Docencia e Investigación Superior", "Licenciado Tecnólogo Médico", "Diplomado Internacional en Gestión y Políticas de Salud Internacional y Soberanía Sanitaria"],
+      "citaciones": 0,
+      "documentos": 2
+    },
+    {
+      "nombre": "Roman-Gonzalez, Avid",
+      "grados": ["Doctor de Télécom ParisTech, especialidad Señal e Imágenes", "Magíster en Ciencias y Tecnologías, mención Electrónica", "Licenciado en Ingeniería de Sistemas", "Licenciado en Ingeniería Electrónica", "Bachiller en Ingeniería de Sistemas", "Bachiller en Ingeniería Electrónica"],
+      "citaciones": 701,
+      "documentos": 180
+    },
+    {
+      "nombre": "Andrade-Arenas, Laberiano",
+      "grados": ["Doctor en Ingeniería de Sistemas", "Magíster en Ingeniería de Sistemas, mención en Gestión de Tecnologías de la Información", "Licenciado en Ingeniería de Sistemas", "Bachiller en Ciencias, mención en Ingeniería de Sistemas"],
+      "citaciones": 518,
+      "documentos": 177
+    },
+    {
+      "nombre": "Delgado, Alexi",
+      "grados": ["Doctor en Ingeniería del Agua y Medioambiental", "Doctor en Medio Ambiente y Desarrollo Sostenible", "Magíster en Ciencias, mención Minería y Medio Ambiente", "Licenciado en Ingeniería de Higiene y Seguridad Industrial", "Bachiller en Ciencias"],
+      "citaciones": 802,
+      "documentos": 125
+    },
+    {
+      "nombre": "Iraola-Real, Ivan",
+      "grados": ["Magíster en Educación, mención Currículo", "Licenciado en Educación, especialidad Psicología - Ciencias Sociales", "Bachiller en Educación"],
+      "citaciones": 54,
+      "documentos": 91
+    },
+    {
+      "nombre": "Vargas-Cuentas, Natalia I.",
+      "grados": ["Magíster en Ingeniería, especialidad Ciencia y Tecnología Aeroespacial", "Licenciada en Ingeniería de Sistemas Electrónicos"],
+      "citaciones": 330,
+      "documentos": 91
+    },
+    {
+      "nombre": "Huamaní, Enrique Lee",
+      "grados": ["Magíster en Gestión de Tecnologías de la Información", "Especialización en Big Data", "Licenciado en Ingeniería de Sistemas e Informática", "Bachiller en Ingeniería de Sistemas e Informática", "Diplomado en Seguridad de la Información y Auditoría de Sistemas de la Información", "Diplomado en Procesos y Mejora Continua con mención en Transformación Digital Empresarial"],
+      "citaciones": 198,
+      "documentos": 62
+    },
+    {
+      "nombre": "Miñan-Olivos, Guillermo Segundo",
+      "grados": ["Magíster en Gestión Pública", "Licenciado en Ingeniería Industrial", "Bachiller en Ingeniería Industrial"],
+      "citaciones": 18,
+      "documentos": 58
+    },
+    {
+      "nombre": "Alva-Mantari, Alicia",
+      "grados": ["Magíster en Informática Biomédica en Salud Global con mención en Informática en Salud", "Bachiller en Ciencias con mención en Matemáticas"],
+      "citaciones": 253,
+      "documentos": 53
+    },
+    {
+      "nombre": "Vargas-De-La-Cruz, Celia Bertha",
+      "grados": ["Magíster en Biotecnologías Farmacéuticas", "Licenciada en Química Farmacéutica", "Bachiller en Farmacia y Bioquímica"],
+      "citaciones": 468,
+      "documentos": 52
+    },
+    {
+      "nombre": "Gonzales-Macavilca, Milton Alexis",
+      "grados": ["Magíster en Administración con mención en Gestión Pública", "Licenciada en Educación Secundaria", "Licenciada en Contaduría Pública", "Bachiller en Educación", "Bachiller en Contabilidad"],
+      "citaciones": 15,
+      "documentos": 30
+    },
+    {
+      "nombre": "Romero-Alva, Victor",
+      "grados": ["Magíster en el área de Sistema de Misiles y Cosmonáutica", "Bachiller en Ingeniería Electrónica con mención en Telecomunicaciones"],
+      "citaciones": 17,
+      "documentos": 25
+    },
+    {
+      "nombre": "Ramos-Cosi, Sebastian J.",
+      "grados": ["Bachiller en Ingeniería Electrónica con mención en Telecomunicaciones"],
+      "citaciones": 29,
+      "documentos": 24
+    },
+    {
+      "nombre": "Morales, Juan",
+      "grados": ["Doctor en Medicina", "Segunda especialidad profesional en Medicina Familiar y Comunitaria", "Magíster en Gerencia de Proyectos y Programas Sociales", "Magíster Universitario en Salud Digital, eHealth", "Licenciado Médico Cirujano", "Bachiller en Medicina Humana"],
+      "citaciones": 75,
+      "documentos": 23
+    },
+    {
+      "nombre": "Yupanqui-Lorenzo, Daniel E.",
+      "grados": ["Magíster en Docencia Universitaria", "Licenciado en Psicología", "Bachiller en Psicología"],
+      "citaciones": 12,
+      "documentos": 22
+    },
+    {
+      "nombre": "Llulluy-Nuñez, David",
+      "grados": ["Magíster en Ciencias de la Electrónica con mención en Control y Automatización", "Licenciado en Ingeniería Electrónica", "Bachiller en Ciencias"],
+      "citaciones": 29,
+      "documentos": 16
+    },
+    {
+      "nombre": "Baylón-Gonzales, Beatriz",
+      "grados": ["Magíster en Administración con mención en Gestión Pública", "Licenciada en Educación Secundaria", "Licenciada en Contaduría Pública", "Bachiller en Educación", "Bachiller en Contabilidad"],
+      "citaciones": 12,
+      "documentos": 10
+    },
+    {
+      "nombre": "Paico-Campos, Meyluz Monica",
+      "grados": ["Bachiller en Ingeniería de Sistemas"],
+      "citaciones": 8,
+      "documentos": 8
+    },
+    {
+      "nombre": "Velasquez-Jimenez, Linett",
+      "grados": ["Magíster en Gerencia de Calidad y Productividad", "Licenciada en Ingeniería Industrial", "Bachiller en Ingeniería Industrial", "Diplomado en Seguridad y Salud"],
+      "citaciones": 1,
+      "documentos": 6
+    },
+    {
+      "nombre": "Leiva-Bazán, Zulema Daria",
+      "grados": ["Doctor en Ciencias de la Educación", "Magíster en Educación, mención Gestión Educacional", "Licenciada en Comunicación Social", "Bachiller en Comunicación Social"],
+      "citaciones": 2,
+      "documentos": 6
+    }
+  ]
+}
