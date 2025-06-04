@@ -1,0 +1,190 @@
+{
+    "carreras": [
+        {
+            "facultad": "Facultad de Ciencias e Ingeniería",
+            "carrera": "Ingeniería Ambiental",
+            "url_detalle": "https://tufuturo.uch.edu.pe/carrera/ingenieria-ambiental"
+        },
+        {
+            "facultad": "Facultad de Ciencias e Ingeniería",
+            "carrera": "Ingeniería de Sistemas e Informática",
+            "url_detalle": "https://tufuturo.uch.edu.pe/carrera/ingenieria-de-sistemas-e-informatica"
+        },
+        {
+            "facultad": "Facultad de Ciencias e Ingeniería",
+            "carrera": "Ingeniería Electrónica con mención en Telecomunicaciones",
+            "url_detalle": "https://tufuturo.uch.edu.pe/carrera/ingenieria-electronica-con-mencion-en-telecomunicaciones"
+        },
+        {
+            "facultad": "Facultad de Ciencias e Ingeniería",
+            "carrera": "Ingeniería Industrial",
+            "url_detalle": "https://tufuturo.uch.edu.pe/carrera/ingenieria-industrial"
+        },
+        {
+            "facultad": "Facultad de Ciencias Contables, Económicas y Financieras",
+            "carrera": "Administración",
+            "url_detalle": "https://tufuturo.uch.edu.pe/carrera/administracion"
+        },
+        {
+            "facultad": "Facultad de Ciencias Contables, Económicas y Financieras",
+            "carrera": "Contabilidad con mención en Finanzas",
+            "url_detalle": "https://tufuturo.uch.edu.pe/carrera/contabilidad-con-mencion-en-finanzas"
+        },
+        {
+            "facultad": "Facultad de Ciencias Contables, Económicas y Financieras",
+            "carrera": "Marketing y Negocios Internacionales",
+            "url_detalle": "https://tufuturo.uch.edu.pe/carrera/marketing-y-negocios-internacionales"
+        },
+        {
+            "facultad": "Facultad de Humanidades y Ciencias Sociales",
+            "carrera": "Comunicación y Medios Digitales",
+            "url_detalle": "https://tufuturo.uch.edu.pe/carrera/comunicacion-y-medios-digitales"
+        },
+        {
+            "facultad": "Facultad de Humanidades y Ciencias Sociales",
+            "carrera": "Derecho",
+            "url_detalle": "https://tufuturo.uch.edu.pe/carrera/derecho"
+        },
+        {
+            "facultad": "Facultad de Humanidades y Ciencias Sociales",
+            "carrera": "Educación Inicial",
+            "url_detalle": "https://tufuturo.uch.edu.pe/carrera/educacion-inicial"
+        },
+        {
+            "facultad": "Facultad de Humanidades y Ciencias Sociales",
+            "carrera": "Educación Primaria e Interculturalidad",
+            "url_detalle": "https://tufuturo.uch.edu.pe/carrera/educacion-primaria-e-interculturalidad"
+        },
+         {
+            "facultad": "Facultad de Humanidades y Ciencias Sociales",
+            "carrera": "Psicología",
+            "url_detalle": "https://tufuturo.uch.edu.pe/carrera/psicologia"
+        },
+        {
+            "facultad": "Facultad de Ciencias de la Salud",
+            "carrera": "Enfermería",
+            "url_detalle": "https://tufuturo.uch.edu.pe/carrera/enfermeria"
+        },
+        {
+            "facultad": "Facultad de Ciencias de la Salud",
+            "carrera": "Farmacia y Bioquímica",
+            "url_detalle": "https://tufuturo.uch.edu.pe/carrera/farmacia-y-bioquimica"
+        },
+        {
+            "facultad": "Facultad de Ciencias de la Salud",
+            "carrera": "Nutrición y Dietética",
+            "url_detalle": "https://tufuturo.uch.edu.pe/carrera/nutricion-y-dietetica"
+        }
+    ],
+    "admision": {
+        "informacion_general": "La Universidad te brinda una formación integral de una alta calidad científica, humanística y tecnológica, con sólidos principios éticos, orientada a la investigación de la realidad local y nacional. Así, en la UCH podrás desarrollar actividades complementarias a tu formación académica como el teatro, la danza, la música y el deporte. Asimismo, realizarás actividades de proyección a la comunidad para poner en práctica tus conocimientos y vocación de servicio.\nPara el desarrollo de tu formación profesional, la UCH te ofrece tutorías personalizadas, laboratorios, biblioteca y aulas multimedia, entre otros servicios. También, realiza una frecuente y variada programación cultural para promover la investigación y la reflexión sobre temas de actualidad, así como fortalecer la identidad cultural y la apreciación del arte en general.\nPor otro lado, dispone de programas de certificación progresiva por cada especialidad que vayas acumulando durante el proceso de tu formación. Además, te ofrece oportunidades de prácticas preprofesionales e información de oportunidades laborales mediante convenios y una actualizada bolsa de trabajo.",
+        "modalidades": [
+            {
+                "nombre": "Modalidad Presencial",
+                "url": "https://www.uch.edu.pe/admision/carreras"
+            },
+            {
+                "nombre": "Modalidad Semipresencial",
+                "url": "https://www.uch.edu.pe/admision/semipresencial"
+            },
+            {
+                "nombre": "Ciclo Cero",
+                "url": "https://www.uch.edu.pe/admision/ciclo-cero"
+            },
+            {
+                "nombre": "Modalidades de Ingreso",
+                "url": "https://www.uch.edu.pe/admision/modalidades"
+            }
+        ],
+        "temario_url": "https://www.uch.edu.pe/admision/temario",
+        "prospecto_url": "https://www.uch.edu.pe/admision/prospecto"
+    },
+    "facultades": [
+        {
+            "nombre": "Facultad de Ciencias e Ingeniería",
+            "url": "http://www.uch.edu.pe/facultades/ciencias-e-ingenieria"
+        },
+        {
+            "nombre": "Facultad de Humanidades y Ciencias Sociales",
+            "url": "http://www.uch.edu.pe/facultades/humanidades-y-ciencias-sociales"
+        },
+        {
+            "nombre": "Facultad de Ciencias de la Salud",
+            "url": "http://www.uch.edu.pe/facultades/ciencias-de-la-salud"
+        },
+        {
+            "nombre": "Facultad de Ciencias Contables, Económicas y Financieras",
+            "url": "http://www.uch.edu.pe/facultades/ciencias-contables-economicas-y-financieras"
+        },
+        {
+            "nombre": "Estudios Generales",
+            "url": "http://www.uch.edu.pe/estudios-generales/presentacion"
+        }
+    ],
+    "servicios": [
+        {
+            "nombre": "Trámites",
+            "url": "https://www.uch.edu.pe/tramites-frecuentes"
+        },
+        {
+            "nombre": "Registros académicos",
+            "url": "https://www.uch.edu.pe/registro-academico"
+        },
+        {
+            "nombre": "Grados y títulos",
+            "url": "https://www.uch.edu.pe/gradosytitulos"
+        },
+        {
+            "nombre": "Fondo editorial",
+            "url": "https://www.uch.edu.pe/fondo-editorial-uch"
+        },
+        {
+            "nombre": "Biblioteca",
+            "url": "https://www.uch.edu.pe/biblioteca/inicio"
+        },
+        {
+            "nombre": "Departamento de deportes",
+            "url": "https://www.uch.edu.pe/servicios/deportes"
+        },
+        {
+            "nombre": "Psicopedagogía y tutoría",
+            "url": "https://www.uch.edu.pe/psicopedagogia/presentacion"
+        },
+        {
+            "nombre": "Oportunidades laborales y seguimiento al egresado",
+            "url": "http://www.uch.edu.pe/oportunidades-laborales/presentacion"
+        },
+        {
+            "nombre": "Bienestar universitario",
+            "url": "https://www.uch.edu.pe/bienestar-universitario"
+        },
+        {
+            "nombre": "Servicio social",
+            "url": "https://www.uch.edu.pe/servicio-social"
+        },
+        {
+            "nombre": "Responsabilidad social y extensión universitaria",
+            "url": "https://www.uch.edu.pe/responsabilidad-social"
+        },
+        {
+            "nombre": "Tópico",
+            "url": "https://www.uch.edu.pe/topico-uch"
+        },
+        {
+            "nombre": "Oficina de orientación",
+            "url": "https://www.uch.edu.pe/orientacion"
+        },
+        {
+            "nombre": "Centro cultural",
+            "url": "https://www.uch.edu.pe/centro-cultural/inicio"
+        },
+        {
+            "nombre": "Defensoría universitaria",
+            "url": "https://www.uch.edu.pe/servicios/defensoria-universitaria"
+        },
+        {
+            "nombre": "Internacionalización",
+            "url": "https://www.uch.edu.pe/internacionalizacion"
+        }
+    ]
+}

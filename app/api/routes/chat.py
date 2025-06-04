@@ -8,6 +8,7 @@ router = APIRouter()
 
 class ChatRequest(BaseModel):
     text: str
+    history: list = []
 
 @router.websocket("/ws/chat")
 async def websocket_endpoint(websocket: WebSocket):
@@ -69,11 +70,12 @@ async def chat(request: ChatRequest):
         print("NUEVA PETICIÓN RECIBIDA")
         print("="*50)
         print(f"Texto recibido del frontend: '{request.text}'")
+        print(f"Historial recibido: {request.history}")
         print("="*50)
         
         try:
             print("Consultando a la IA...")
-            response = ai_service.get_response(request.text)
+            response = ai_service.get_response(request.text, request.history)
             print(f"Respuesta de la IA: '{response}'")
             
             response_data = {"response": response}
@@ -96,4 +98,4 @@ async def chat(request: ChatRequest):
         print("Traceback completo:")
         print(traceback.format_exc())
         print("="*50 + "\n")
-        raise HTTPException(status_code=500, detail=str(e)) 
+        raise HTTPException(status_code=500, detail=str(e))
