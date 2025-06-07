@@ -74,6 +74,11 @@
             "facultad": "Facultad de Ciencias de la Salud",
             "carrera": "Nutrición y Dietética",
             "url_detalle": "https://tufuturo.uch.edu.pe/carrera/nutricion-y-dietetica"
+        },
+        {
+            "facultad": "Facultad de Ciencias de la Salud",
+            "carrera": "Psicología",
+            "url_detalle": "https://tufuturo.uch.edu.pe/carrera/psicologia"
         }
     ],
     "admision": {
@@ -282,5 +287,6 @@
                 "Alberto Soto Tejada"
             ]
         }
-    ]
+    ],
+    "uch_link": "www.uch.edu.pe"
 }
